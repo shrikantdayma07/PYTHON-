@@ -1,0 +1,15 @@
+Visit the website =====>>> javatpoint, tutorialpoint, PYnative 
+#do not visit website : w3school
+
+Identity Operators : 
+
+a=10
+b=10
+print ( a is b)
+
+#output : True
+
+=============================================================================
+it is used to compare values 
+if both the values in a and b are same then it will return true else false ... 
+it will store the same memory location as value are same .. 

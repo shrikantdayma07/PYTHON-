@@ -1,0 +1,64 @@
+#Functions in Python 
+
+
+-Group of statements defined with a name 
+-it is use for reusability 
+-it is used for performing same task again and again without writing code again and again 
+
+========================================================================================
+#Types of Functions 
+
+1] Built in function --->> comes along with the python software automatically, they are pre-defined 
+eg.id(), type(), input(), eval() ,.....etc.  
+
+#some built-in functions in Python are :
+print(), eval(), count(), float(), frozenset(), len(), input(), list(), max(), min(), range(), set(), sum(), str(), type(), slice(), super(), tuple(), pow(), abs(), all(), format()
+
+2] User defined function ---->> the functions which are developd by programmer explicitly according to business requirements, are called as user defined functions. 
+- they are created according to user requirement. 
+
+- we can defined user-defined function using "def" keyword !!
+
+===========================================
+#difference between implicit and explicit : 
+
+Explicit means something is clearly stated, while implicit means something is implied or understood but not directly stated:
+
+a] Explicit
+Something that is clearly stated and leaves nothing to interpretation. For example, "We gave them explicit instructions" means the instructions were stated in detail.
+
+b] Implicit
+Something that is implied or understood but not directly stated. For example, "We had an implicit agreement" means the agreement was implied but never actually stated or written down.
+
+=================================
+#syntax of user-defined functions:
+
+def function_name(parameters):
+	"doc string"
+	-------
+	------
+
+	return value 
+
+1) Parameterized Functions --->> we pass the arguments or parameters inside the functions 
+2) Non-Parameterized Functions --->>we do not pass the parameters inside the functions 
+=====================================================================================
+NOTE : we can call the functions using the function_name 
+
+#in function we need not to mention datatype .. it automatically identify the datatype when we return or call the functions
+=================================================================
+
+#Parameters in the Functions :
+
+- This is also called as Arguments 
+- input of the function 
+
+ There are 4 types of actual arguments are allowed in Python:
+
+i]positional
+ii]keyword
+iii] default
+iv] variable length 
+
+#Variable Lengths Arguments : sometimes we can pass variable number of arguments to our function, such type of arguments are called variable length arguments .
+-we can declare a variable length argument with * symbol as follows : def f1 (*n) 
